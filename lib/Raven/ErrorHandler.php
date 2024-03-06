@@ -24,6 +24,7 @@
 // TODO(dcramer): deprecate default error types in favor of runtime configuration
 // unless a reason can be determined that making them dynamic is better. They
 // currently are not used outside of the fatal handler.
+#[\AllowDynamicProperties]
 class Raven_ErrorHandler
 {
     private $old_exception_handler;

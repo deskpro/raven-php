@@ -4,6 +4,7 @@
  *
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_Stacktrace
 {
     public static $statements = array(

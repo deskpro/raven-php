@@ -15,6 +15,7 @@
  */
 
 // TODO(dcramer): handle ca_cert
+#[\AllowDynamicProperties]
 class Raven_CurlHandler
 {
     private $join_timeout;

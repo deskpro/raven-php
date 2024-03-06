@@ -5,6 +5,7 @@
  *
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_SanitizeDataProcessor extends Raven_Processor
 {
     const MASK = '********';

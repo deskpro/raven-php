@@ -14,6 +14,7 @@
  * both the type and value, and be serializable into JSON.
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_ReprSerializer extends Raven_Serializer
 {
     protected function serializeValue($value)

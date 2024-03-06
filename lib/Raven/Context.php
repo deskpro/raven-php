@@ -4,6 +4,7 @@
  *
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_Context
 {
     public function __construct()

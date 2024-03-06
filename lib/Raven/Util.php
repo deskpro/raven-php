@@ -14,7 +14,7 @@
  *
  * @package raven
  */
-
+#[\AllowDynamicProperties]
 class Raven_Util
 {
     /**

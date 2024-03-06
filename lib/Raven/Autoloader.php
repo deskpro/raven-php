@@ -14,6 +14,7 @@
  *
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_Autoloader
 {
     /**

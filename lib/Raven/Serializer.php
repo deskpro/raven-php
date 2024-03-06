@@ -24,6 +24,7 @@
  *
  * @package raven
  */
+#[\AllowDynamicProperties]
 class Raven_Serializer
 {
     /**
